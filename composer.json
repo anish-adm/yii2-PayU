@@ -20,7 +20,7 @@
         "yiisoft/yii2": "*",
         "ext-curl": "*",
         "ext-json": "*",
-        "PayU/openpayu_php": "2.1.*"
+        "openpayu/openpayu": "2.1.*"
     },
     "autoload": {
         "psr-4": {
