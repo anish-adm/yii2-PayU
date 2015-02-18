@@ -1,0 +1,30 @@
+{
+    "name": "anish-adm/yii2-payu",
+    "description": "The PayU extension for the Yii2 framework",
+    "keywords": ["yii2", "PayU"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/anish-adm/yii2-payu/issues",
+        "source": "https://github.com/anish-adm/yii2-payu"
+    },
+    "authors": [
+        {
+            "name": "Anish Madhu",
+            "email": "anish.adm.madhu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "PayU/openpayu_php": "2.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "anish\\": ""
+        }
+    }
+}
